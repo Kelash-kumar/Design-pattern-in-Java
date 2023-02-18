@@ -5,13 +5,11 @@ class SingltonDesignPatterns
    // create an object of SingltonDesignPatterns
    
    private static SingltonDesignPatterns
-    singleDesign_Instance = new SingltonDesignPatterns
-   ();
+    singleDesign_Instance = new SingltonDesignPatterns();
 
    // make the constructor private so that this class cannot be
    // instantiated
-   SingltonDesignPatterns
-   () {
+   SingltonDesignPatterns() {
    }
 
    // created a method which will return the instance of this calss
@@ -25,9 +23,7 @@ class SingltonDesignPatterns
    }
 
    public static void main(String[] args) {
-      SingltonDesignPatterns
-       singltenDesignPattern_1 = new SingltonDesignPatterns
-      ();
+      SingltonDesignPatterns singltenDesignPattern_1 = new SingltonDesignPatterns();
       System.out.println(getInstance());
       singltenDesignPattern_1.showMessage();
 
